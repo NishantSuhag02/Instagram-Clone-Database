@@ -1,1 +1,2 @@
-# Instagram-Clone-Database
+# Instagram Clone Database
+
