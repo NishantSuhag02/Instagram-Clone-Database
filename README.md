@@ -19,4 +19,4 @@ Created database tables, indexes, and views to store and retrieve data efficient
 Utilized SQL (Structured Query Language) to perform data manipulation operations, including INSERT, UPDATE, and DELETE, to manage user-generated content.
 Developed complex SQL queries to extract specific information, such as posts with the highest engagement or users with the most followers.
 
-This project showcased my expertise in database design, data modeling and SQL to create an efficient database system for the Instagram clone application. It demonstrated my ability to plan, implement, and maintain complex database solutions to support the seamless functioning of Instagram Clone.
+**This project showcased my expertise in database design, data modeling and SQL to create an efficient database system for the Instagram clone application. It demonstrated my ability to plan, implement, and maintain complex database solutions to support the seamless functioning of Instagram Clone.**
