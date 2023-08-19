@@ -8,6 +8,9 @@ Designed a robust and scalable database schema to efficiently store and manage u
 Modeled the database entities and relationships, representing user profiles, posts, comments, likes, and followers, using an ERD.
 Defined primary keys, foreign keys, and constraints to maintain data integrity and enforce referential integrity.
 
+![Screenshot 2023-08-19 183434](https://github.com/NishantSuhag02/Instagram-Clone-Database/assets/112072807/47bad65b-862d-4417-818e-04772f48a37f)
+
+
 # Database Implementation:
 Implemented the designed database schema using an appropriate relational database management system (MySQL).
 Created database tables, indexes, and views to store and retrieve data efficiently.
