@@ -98,14 +98,6 @@ LEFT JOIN comments ON users.id = comments.user_id
 GROUP BY users.id
 HAVING comment_text IS NULL;
 
-SELECT COUNT(*) FROM
-(SELECT username,comment_text
-	FROM users
-	LEFT JOIN comments ON users.id = comments.user_id
-	GROUP BY users.id
-	HAVING comment_text IS NULL) AS total_number_of_users_without_comments;
-
-
 -- (Q12) Find users who have ever commented on a photo.
 
 SELECT username,comment_text
@@ -113,11 +105,3 @@ FROM users
 LEFT JOIN comments ON users.id = comments.user_id
 GROUP BY users.id
 HAVING comment_text IS NOT NULL;
-
-
-SELECT COUNT(*) FROM
-(SELECT username,comment_text
-	FROM users
-	LEFT JOIN comments ON users.id = comments.user_id
-	GROUP BY users.id
-	HAVING comment_text IS NOT NULL) AS total_number_users_with_comments;
